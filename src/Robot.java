@@ -13,7 +13,7 @@ public class Robot
 
     private Direction direction;
 
-    // constructor
+    // constructor.
     public Robot(String name, String direction) throws InvalidDirectionException
     {
         if (direction.equalsIgnoreCase(Direction.UP.toString())
